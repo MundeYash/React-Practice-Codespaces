@@ -1,4 +1,3 @@
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,10 +5,9 @@
   text-align: center;
 }
 
-.btn{
+.btn {
   background-color: green;
-
 }
-.parent{
+.parent {
   background-color: blueviolet;
 }
