@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.filters {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.active-filter {
+  background: black;
+  color: white;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.completed .todo-text {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}

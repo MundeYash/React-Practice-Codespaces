@@ -1,22 +1,22 @@
-import { useState } from "react";
-import { Props } from "./react-concepts/props/Props";
-import { Props2 } from "./react-concepts/props/Props2";
-import { FunctionBasedReactComponents } from "./react-concepts/typesOfComponents/FunctionComponent.jsx";
-import { ClassBasedReactComponents } from "./react-concepts/typesOfComponents/ClassComponents.jsx";
+// import { useState } from "react";
+// import { Props } from "./react-concepts/props/Props";
+// import { Props2 } from "./react-concepts/props/Props2";
+// import { FunctionBasedReactComponents } from "./react-concepts/typesOfComponents/FunctionComponent.jsx";
+// import { ClassBasedReactComponents } from "./react-concepts/typesOfComponents/ClassComponents.jsx";
 import "./App.css";
-
+import Todo from "./MACHINE-CODING/To-Do-App/Todo";
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  const handleClick = () => {
-    console.log("this is clicked");
-    setCount(count + 1);
-    console.log(count);
-    window.alert("hi , this is count value =" + count);
-  };
+  // const handleClick = () => {
+  //   console.log("this is clicked");
+  //   setCount(count + 1);
+  //   console.log(count);
+  //   window.alert("hi , this is count value =" + count);
+  // };
   return (
     <>
-      <div className="parent">
+      {/* <div className="parent">
         <h6>SAMPLE CODE:</h6>
         <div>hello world</div>
         <button className="btn" onClick={handleClick}>
@@ -35,7 +35,9 @@ function App() {
 
         <h6>FUNCTIONAL COMPONENTS RENDERED :</h6>
         <FunctionBasedReactComponents />
-      </div>
+      </div> */}
+
+      <Todo />
     </>
   );
 }
