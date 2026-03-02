@@ -5,6 +5,7 @@
 // import { ClassBasedReactComponents } from "./react-concepts/typesOfComponents/ClassComponents.jsx";
 import "./App.css";
 import Todo from "./MACHINE-CODING/To-Do-App/Todo";
+import Autocomplete from "./MACHINE-CODING/DebounceSearch/Autocomplete/Autocomplete";
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -38,6 +39,7 @@ function App() {
       </div> */}
 
       <Todo />
+      <Autocomplete />
     </>
   );
 }
