@@ -1,0 +1,29 @@
+.pagination-helper {
+  max-width: 700px;
+  margin: 40px auto;
+  background: grey;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.list-item {
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+button.active {
+  background: black;
+  color: white;
+}

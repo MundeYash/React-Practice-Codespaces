@@ -51,7 +51,7 @@ export default function Autocomplete() {
   };
 
   return (
-    <div className="app">
+    <div className="auto-complete">
       <h1>Debounced Search</h1>
 
       <input
