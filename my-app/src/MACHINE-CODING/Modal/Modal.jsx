@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-
+import "./ModalStyle.css";
 export default function Modal({ isOpen, onClose, children }) {
   const modalRef = useRef(null);
 

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Modal from "./Modal"
-import "./ModalStyle.css"
+import Modal from "./Modal";
+import "./ModalStyle.css";
 
-const ModalHelper =()=>{
-// create states for Modal open/close
+const ModalParent = () => {
+  // create states for Modal open/close
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className="App">
@@ -17,5 +17,5 @@ const ModalHelper =()=>{
       </Modal>
     </div>
   );
-}
-export default ModalHelper;
+};
+export default ModalParent;
