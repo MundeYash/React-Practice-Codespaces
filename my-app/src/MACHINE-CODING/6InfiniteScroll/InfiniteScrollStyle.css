@@ -1,0 +1,16 @@
+.infinite-scroll {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border: 5px solid black;
+  padding: 20px;
+  border-radius: 8px;
+}
+ol {
+  justify-content: left;
+}
+
+.item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
