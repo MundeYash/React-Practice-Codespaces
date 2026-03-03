@@ -8,6 +8,7 @@ import Todo from "./MACHINE-CODING/To-Do-App/Todo";
 import Autocomplete from "./MACHINE-CODING/DebounceSearch/Autocomplete/Autocomplete";
 import ModalParent from "./MACHINE-CODING/Modal/ModalParent";
 import PaginationHelper from "./MACHINE-CODING/Reusable Pagination/PaginationHelper";
+import FormValidation from "./MACHINE-CODING/FromValidation/FormValidation";
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -44,6 +45,7 @@ function App() {
       <Autocomplete />
       <ModalParent />
       <PaginationHelper />
+      <FormValidation />
     </>
   );
 }
