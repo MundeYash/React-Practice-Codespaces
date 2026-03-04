@@ -15,6 +15,26 @@ const fileData = [
           { name: "Sidebar.jsx", type: "file" },
           { name: "Component1.jsx", type: "file" },
           { name: "Component2.jsx", type: "file" },
+          {
+            name: "text",
+            type: "folder",
+            children: [
+              { name: "header.txt", type: "file" },
+              { name: "sidebar.txt", type: "file" },
+              { name: "component1.txt", type: "file" },
+              { name: "component2.txt", type: "file" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "styles",
+        type: "folder",
+        children: [
+          { name: "HeaderStyle.css", type: "file" },
+          { name: "SidebarStyle.css", type: "file" },
+          { name: "Component1Style.css", type: "file" },
+          { name: "Component2Style.css", type: "file" },
         ],
       },
       { name: "App.jsx", type: "file" },
