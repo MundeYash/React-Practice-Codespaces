@@ -1,0 +1,38 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Light Theme */
+.app-container.light {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+/* Dark Theme */
+.app-container.dark {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.toggle-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #2563eb;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #1e40af;
+}
