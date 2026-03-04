@@ -4,8 +4,9 @@
 // import { FunctionBasedReactComponents } from "./react-concepts/typesOfComponents/FunctionComponent.jsx";
 // import { ClassBasedReactComponents } from "./react-concepts/typesOfComponents/ClassComponents.jsx";
 import "./App.css";
+import CustomHook from "./MACHINE-CODING/custom-hook/CustomHook";
 // import CarouselHelper from "./MACHINE-CODING/Carousel/CarouselHelper";
-import Stopwatch from "./MACHINE-CODING/Stopwatch/Stopwatch";
+// import Stopwatch from "./MACHINE-CODING/Stopwatch/Stopwatch";
 // import DragDropListHelper from "./MACHINE-CODING/DragDropList/DragDropListHelper";
 // import AccordionComponentHelper from "./MACHINE-CODING/AccordianComponent/AccordianComponentHelper";
 // import FileExplorerHelper from "./MACHINE-CODING/FileExplorer/FileExplorerHelper";
@@ -64,7 +65,8 @@ function App() {
       {/* <FileExplorerHelper /> */}
       {/* <DragDropListHelper /> */}
       {/* <CarouselHelper /> */}
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      <CustomHook />
     </>
   );
 }
