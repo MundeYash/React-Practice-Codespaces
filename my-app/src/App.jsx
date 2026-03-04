@@ -4,7 +4,8 @@
 // import { FunctionBasedReactComponents } from "./react-concepts/typesOfComponents/FunctionComponent.jsx";
 // import { ClassBasedReactComponents } from "./react-concepts/typesOfComponents/ClassComponents.jsx";
 import "./App.css";
-import AccordionComponentHelper from "./MACHINE-CODING/AccordianComponent/AccordianComponentHelper";
+// import AccordionComponentHelper from "./MACHINE-CODING/AccordianComponent/AccordianComponentHelper";
+import FileExplorerHelper from "./MACHINE-CODING/FileExplorer/FileExplorerHelper";
 // import NestedCommentHelper from "./MACHINE-CODING/7NestedComments/NestedCommentHelper";
 // import Todo from "./MACHINE-CODING/To-Do-App/Todo";
 // import TabsComponentHelper from "./MACHINE-CODING/TabsComponent/TabsComponentHelper";
@@ -13,7 +14,8 @@ import AccordionComponentHelper from "./MACHINE-CODING/AccordianComponent/Accord
 // import PaginationHelper from "./MACHINE-CODING/Reusable Pagination/PaginationHelper";
 // import FormValidation from "./MACHINE-CODING/FromValidation/FormValidation";
 // import InfiniteScroll from "./MACHINE-CODING/6InfiniteScroll/InfiniteScroll";
-import ThemeSwitcherHelper from "./MACHINE-CODING/ThemeSwitcher/ThemeSwitcherHelper";
+// import ThemeSwitcherHelper from "./MACHINE-CODING/ThemeSwitcher/ThemeSwitcherHelper";
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -54,8 +56,9 @@ function App() {
       {/* <InfiniteScroll /> */}
       {/* <NestedCommentHelper /> */}
       {/* <TabsComponentHelper /> */}
-      <AccordionComponentHelper />
-      <ThemeSwitcherHelper />
+      {/* <AccordionComponentHelper />
+      <ThemeSwitcherHelper /> */}
+      <FileExplorerHelper />
     </>
   );
 }

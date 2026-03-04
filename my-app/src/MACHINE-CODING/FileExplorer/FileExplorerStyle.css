@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.explorer-container {
+  background-color: #252526;
+  padding: 10px;
+  width: 300px;
+  border-radius: 6px;
+}
+
+.file-node {
+  margin-left: 10px;
+}
+
+.node-label {
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.node-label:hover {
+  background-color: #37373d;
+}
+
+.folder {
+  font-weight: bold;
+}
+
+.file {
+  font-weight: normal;
+}
+
+.arrow {
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.children {
+  margin-left: 15px;
+  border-left: 1px solid #3c3c3c;
+  padding-left: 10px;
+}
